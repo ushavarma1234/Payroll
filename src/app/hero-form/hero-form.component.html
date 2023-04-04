@@ -1,0 +1,160 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+
+<h2 class="candidate">Candidate Application Form</h2><hr>
+
+
+<form name="studentform">
+    
+<div class="form-group">
+
+    <label for="firstname">CandidateId</label>
+    <input required type="text" name="firstname" class="form-control" [(ngModel)]="city">
+   
+    
+    
+</div>
+
+
+<div class="form-group">
+
+    <label for="firstname">FirstName</label>
+    <input  required type="text" name="firstname" class="form-control"  >
+   
+
+    
+</div>
+
+
+
+
+<div class="form-group">
+
+    <label for="firstname">LastName:</label>
+    <input  required type="text" name="firstname" class="form-control"  >
+</div>
+
+
+
+
+<div class="form-group">
+
+    <label for="firstname">DOB:</label>
+    <input required  type="date" name="firstname" class="form-control" >
+</div>
+
+
+
+
+
+<div class="form-group">
+
+    <label for="firstname">FatherName:</label>
+    <input required type="text" name="firstname" class="form-control" >
+</div>
+
+
+
+
+
+<div class="form-group">
+
+    <label for="firstname">Email:</label>
+
+    <input required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" type="text" name="firstname" class="form-control">
+    <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid">
+        
+        </span>
+   
+        
+</div>
+
+
+
+
+
+<div class="form-group">
+
+    <label for="firstname">Phonenumber:</label>
+    <input  required type="text" name="firstname" class="form-control">
+</div>
+
+
+
+
+
+<div class="form-group">
+
+    <label for="firstname">Alternatenumber:</label>
+    <input  required type="text" name="firstname" class="form-control" >
+</div>
+
+<div class="form-group">
+
+    <label for="firstname">Address:</label>
+    <input  requiredtype="text" name="firstname" class="form-control">
+</div>
+
+
+<div class="form-group">
+
+    <label for="firstname">City:</label>
+    <input  requiredtype="text" name="firstname" class="form-control">
+</div>
+
+<div class="form-group">
+
+    <label for="firstname">Pincode:</label>
+    <input  requiredtype="text" name="firstname" class="form-control">
+</div>
+
+
+<div class="form-group">
+    <label for="firstname">Qualification</label>
+    <select id="Qualification">
+      
+        <option value="volvo">BTech</option>
+        <option value="saab">Degree</option>
+        <option value="opel">MBA</option>
+        <option value="audi">MTech</option>
+      </select>
+</div>
+
+
+<div class="form-group">
+
+    <label for="firstname">AadharNumber:</label>
+    <input  requiredtype="text" name="firstname" class="form-control">
+</div>
+
+<div class="form-group">
+
+    <label for="firstname">Nationality:</label>
+    <input  requiredtype="text" name="firstname" class="form-control">
+</div>
+
+<div class="form-group">
+
+    <label for="firstname">MaritalStatus:</label>
+    <input  requiredtype="text" name="firstname" class="form-control" >
+</div>
+
+<div class="form-group">
+
+    <label for="firstname">Gender:</label>
+    <input  requiredtype="text" name="firstname" class="form-control">
+</div>
+
+
+
+
+
+
+<button (click)="myFunction()">submit</button>
+
+
+</form>
+</div>
+
+</div>
